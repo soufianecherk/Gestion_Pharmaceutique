@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>488</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>441</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>RAISONSOCI</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CLIENTOCI</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MATRICULE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TELEPULE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SOLDE_DEB</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SOLDE_ACT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PLAFONDT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SOCIETET</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DDAETET</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nouvelle colonne</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PHARMACIEN</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ADRESSEEN</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>VILLEEEN</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>View Table Data</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
